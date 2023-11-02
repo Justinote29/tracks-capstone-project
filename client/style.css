@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faqLogo {
+  width: 400px;
+}
+
+.faq {
+  margin: 25px;
+}
+
+.myTracksLogo {
+  width: 80px;
+}
+
+.landingDiv {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  margin-top: 20px;
+}

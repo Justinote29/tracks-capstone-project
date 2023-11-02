@@ -1,0 +1,9 @@
+/* makes info window text visible - changes text color from white (default) to black */
+.marker-container {
+  color: black;
+}
+
+.marker-text {
+  overflow-wrap: break-word;
+  hyphens: manual;
+}

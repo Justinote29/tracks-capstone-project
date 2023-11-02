@@ -1,0 +1,28 @@
+.signupButton {
+  background-color: #807bfff6;
+  color: #fff;
+  margin: 0;
+  padding: 7px 10px; /* Adjust padding as needed */
+  border: none; /* Remove button border */
+  border-radius: 8px; /* Rounded corners */
+
+  /* Define the hover state */
+  &:hover {
+    background-color: #0056b3;
+    /* Darker background on hover */
+  }
+
+  /* Define the active state when the button is clicked */
+  &:active {
+    transform: translateY(2px);
+    /* Push the button down slightly */
+  }
+
+  /* Define the focus state when the button is selected */
+  &:focus {
+    outline: none;
+    /* Remove the default focus outline */
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.6);
+    /* Add a focus shadow */
+  }
+}

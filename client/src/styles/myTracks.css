@@ -1,0 +1,103 @@
+/* .wrapper {
+  width: 100vw;
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow-wrap: break-word;
+} */
+
+.panelContainer {
+  height: 80.2vh;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* text-align: start; */
+  text-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.leftPanel {
+  padding: 2px;
+  /* border: .5px solid gray; */
+  border-radius: 8px;
+  display: flex;
+  font-size: small;
+  /* flex-basis: auto; */
+  flex-direction: column;
+  /* flex-flow: column wrap; */
+  justify-content: flex-start;
+  text-align: center;
+  min-width: 200px;
+  max-width: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.rightPanel {
+  border: 0.5px solid gray;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-left: 1vw;
+  flex-grow: 3;
+}
+
+@media (max-width: 768px) {
+  .panelContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftPanel {
+    margin: 50px;
+  }
+}
+h2 {
+  font-size: x-large;
+}
+
+.audioPlayer {
+  max-width: 100%;
+  max-height: 50px;
+}
+
+.deleteBtn {
+  margin-bottom: 0.5rem;
+  width: 180px;
+  height: 25px;
+  /* Default button styles */
+  background-color: #00b7dbc8; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 2px 10px; /* Adjust padding as needed */
+  border: none; /* Remove button border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+
+  /* Transition for smooth animation */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  /* Add a subtle box shadow for depth */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  /* Define the hover state */
+  &:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }
+
+  /* Define the active state when the button is clicked */
+  &:active {
+    transform: translateY(2px); /* Push the button down slightly */
+  }
+
+  /* Define the focus state when the button is selected */
+  &:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.6); /* Add a focus shadow */
+  }
+}
+
+hr {
+  margin: 3px;
+}

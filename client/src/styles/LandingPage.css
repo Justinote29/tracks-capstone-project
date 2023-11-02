@@ -1,0 +1,13 @@
+.landingImage {
+  max-width: 75vw;
+  max-height: 70vh;
+}
+
+.landingButtons {
+  margin: 20px 0 0 0;
+}
+
+.landingSignIn, .landingSignUp {
+  margin: 0 15px;
+  display: inline-block;
+}

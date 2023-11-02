@@ -1,0 +1,19 @@
+.footer {
+  opacity: 25%;
+  text-align: right;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.footerContent {
+  width: 100vw;
+  max-height: 0;
+}
+
+.footerInfo1, .footerInfo2 {
+  color: gray;
+}
+
+.footerInfo1 {
+  font-size: x-small;
+}

@@ -1,0 +1,95 @@
+.pageDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.userProfile {
+  width: 20rem;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.profileImageBackground {
+  margin: auto;
+  max-height: 19.6rem;
+  max-width: 19.6rem;
+  background-color: rgb(76, 103, 255);
+  border-radius: 4px;
+}
+
+.userProfileImg {
+  max-width: 200px;
+}
+
+.userInfoContainer {
+  text-align: left;
+}
+
+.profileTitle,
+.profileCategory,
+.profileHeading {
+  font-family: "Alata", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: xx-large;
+}
+
+.profileCategory {
+  font-size: large;
+  margin: 2px 0;
+}
+
+.profileInfo {
+  font-family: "Alata", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.profileHeading {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+}
+
+.profileInput {
+  width: 18.25rem;
+}
+
+.userProfileButton {
+  margin-bottom: 0.5rem;
+  width: 180px;
+  /* Default button styles */
+  background-color: #00b6db; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 7px 10px; /* Adjust padding as needed */
+  border: none; /* Remove button border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+
+  /* Transition for smooth animation */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  /* Add a subtle box shadow for depth */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  /* Define the hover state */
+  &:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }
+
+  /* Define the active state when the button is clicked */
+  &:active {
+    transform: translateY(2px); /* Push the button down slightly */
+  }
+
+  /* Define the focus state when the button is selected */
+  &:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.6); /* Add a focus shadow */
+  }
+}
