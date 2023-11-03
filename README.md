@@ -4,7 +4,7 @@ To see working app, visit https://tracks-global.com/
 
 React app with CRUD functionality.
 
-Users can create an audio track.  This track is then displayed on a map and tied to the geolocation where it was created.  The tracks is then able to be played by other users on a shared map.  A user can also access their tracks on a separate page and delete them.  Additionally, a user can update their username and profile picture.
+Users can create an audio track.  This is any connections they have to physical space: a memory, experience, thought, review, etc.  This track is then displayed on a map and tied to the geolocation where it was created.  The tracks is then able to be played by other users on a shared map.  A user can also access their tracks on a separate page and delete them.  Additionally, a user can update their username and profile picture.
 
 Technologies used
 
