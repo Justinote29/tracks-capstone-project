@@ -1,5 +1,6 @@
 # tracks-capstone-project
-bootcamp group project
+bootcamp group project-  I worked on the audio recorder to create and play tracks, saving the audio to s3, and updating profile information.  I also worked on the backend routes to save data to MongoDB and s3.  
+
 To see working app, visit https://tracks-global.com/
 
 React app with CRUD functionality.
